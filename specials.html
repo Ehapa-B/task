@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specials</title>
+
+    <!-- CSS scripts -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/e6e9423d9b.js" crossorigin="anonymous"></script>
+
+   <!-- Bootstrap Scripts -->
+    <link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-md visible-lg">
+            <div id="logo-img" alt="Logo image"></div>
+          </a>
+
+          <div class="navbar-brand">
+            <a href="index.html"><h1>Benita's Menu</h1></a>
+            <p>
+              <img src="images/star-k-logo.png" alt="Nirvanacertification">
+              <span>Nirvana Certified</span>
+            </p>
+          </div>
+
+          <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li id="navHomeButton" class="visible-xs active">
+              <a href="index.html">
+                <span class="glyphicon glyphicon-home"></span> Home</a>
+            </li>
+            <li id="navMenuButton">
+              <a href="Menu.html" onclick="$dc.loadMenuCategories();">
+                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
+            </li>
+            <li>
+              <a href="index.html">
+                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
+            </li>
+            <li>
+              <a href="index.html">
+                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards</a>
+            </li>
+            <li id="phone" class="hidden-xs">
+              <a href="tel:+234-800-2844-897">
+                <span>+234-800-2844-897</span></a><div>* We Deliver at Your Home</div>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+
+  <div class="menu-item-tile col-md-4">
+        <div class="row">
+          <div class="col-sm-5">
+            <div class="menu-item-photo">
+              <div>Special</div>
+              <img class="img-responsive" width="250" height="150" src="images/A8.jpg" alt="Item">
+            </div>
+            <div class="menu-item-price">$10<span> crunchy</span> $20 <span> Spicy</span></div>
+          </div>
+          <div class="menu-item-description col-sm-7">
+            <h3 class="menu-item-title">Tea</h3>
+            <p class="menu-item-details">mixed flavours</p>
+          </div>
+        </div>
+        <hr class="visible-xs">
+    </div>
+    <div class="menu-item-tile col-md-4">
+      <div class="row">
+        <div class="col-sm-5">
+          <div class="menu-item-photo">
+            <div>Special</div>
+            <img class="img-responsive" width="250" height="150" src="images/A3.jpg" alt="Item">
+          </div>
+          <div class="menu-item-price">$10<span> crunchy</span> $20 <span> Spicy</span></div>
+        </div>
+        <div class="menu-item-description col-sm-7">
+          <h3 class="menu-item-title">Custard</h3>
+          <p class="menu-item-details">Banana</p>
+      </div>
+      </div>
+      <hr class="visible-xs">
+  </div>
+  <div class="menu-item-tile col-md-4">
+    <div class="row">
+      <div class="col-sm-5">
+        <div class="menu-item-photo">
+          <div>Special</div>
+          <img class="img-responsive" width="250" height="150" src="images/A7.jpg" alt="Item">
+        </div>
+        <div class="menu-item-price">$10<span> crunchy</span> $20 <span> Spicy</span></div>
+      </div>
+      <div class="menu-item-description col-sm-7">
+        <h3 class="menu-item-title">Veggies</h3>
+        <p class="menu-item-details">mixed flavours</p>
+      </div>
+    </div>
+    <hr class="visible-xs">
+ </div>
+ <div class="menu-item-tile col-md-4">
+  <div class="row">
+    <div class="col-sm-5">
+      <div class="menu-item-photo">
+        <div>Special</div>
+        <img class="img-responsive" width="250" height="150" src="images/A9.jpg" alt="Item">
+      </div>
+      <div class="menu-item-price">$10<span> crunchy</span> $20 <span> Spicy</span></div>
+    </div>
+    <div class="menu-item-description col-sm-7">
+      <h3 class="menu-item-title">Green Tea</h3>
+      <p class="menu-item-details">Green leaves</p>
+    </div>
+  </div>
+  <hr class="visible-xs">
+ </div>
+ <div class="menu-item-tile col-md-4">
+  <div class="row">
+    <div class="col-sm-5">
+      <div class="menu-item-photo">
+        <div>Special</div>
+        <img class="img-responsive" width="250" height="150" src="images/A11.jpg" alt="Item">
+      </div>
+      <div class="menu-item-price">$10<span> crunchy</span> $20 <span> Spicy</span></div>
+    </div>
+    <div class="menu-item-description col-sm-7">
+      <h3 class="menu-item-title">Spring</h3>
+      <p class="menu-item-details">mixed flavours</p>
+    </div>
+  </div>
+  <hr class="visible-xs">
+ </div>
+ <div class="menu-item-tile col-md-4">
+  <div class="row">
+    <div class="col-sm-5">
+      <div class="menu-item-photo">
+        <div>Special</div>
+        <img class="img-responsive" width="250" height="150" src="images/A7.jpg" alt="Item">
+      </div>
+      <div class="menu-item-price">$10<span> crunchy</span> $20 <span> Spicy</span></div>
+    </div>
+    <div class="menu-item-description col-sm-7">
+      <h3 class="menu-item-title">Avocado</h3>
+      <p class="menu-item-details">peas</p>
+    </div>
+  </div>
+  <hr class="visible-xs">
+ </div>
+ <div class="menu-item-tile col-md-4">
+  <div class="row">
+    <div class="col-sm-5">
+      <div class="menu-item-photo">
+        <div>Special</div>
+        <img class="img-responsive" width="250" height="150" src="images/A10.jpg" alt="Item">
+      </div>
+      <div class="menu-item-price">$10<span> crunchy</span> $20 <span> Spicy</span></div>
+    </div>
+    <div class="menu-item-description col-sm-7">
+      <h3 class="menu-item-title">Spinach</h3>
+      <p class="menu-item-details">mixed flavours</p>
+    </div>
+  </div>
+  <hr class="visible-xs">
+ </div>
+ <div class="menu-item-tile col-md-4">
+  <div class="row">
+    <div class="col-sm-5">
+      <div class="menu-item-photo">
+        <div>Special</div>
+        <img class="img-responsive" width="250" height="150" src="images/A6.jpg" alt="Item">
+      </div>
+      <div class="menu-item-price">$10<span> crunchy</span> $20 <span> Spicy</span></div>
+    </div>
+    <div class="menu-item-description col-sm-7">
+      <h3 class="menu-item-title">Noodle Tea</h3>
+      <p class="menu-item-details">mixed flavours</p>
+    </div>
+  </div>
+  <hr class="visible-xs">
+ </div>
+ <div class="menu-item-tile col-md-4">
+  <div class="row">
+    <div class="col-sm-5">
+      <div class="menu-item-photo">
+        <div>Special</div>
+        <img class="img-responsive" width="250" height="150" src="images/A5.jpg" alt="Item">
+      </div>
+      <div class="menu-item-price">$10<span> crunchy</span> $20 <span> Spicy</span></div>
+    </div>
+    <div class="menu-item-description col-sm-7">
+      <h3 class="menu-item-title">Sauce</h3>
+      <p class="menu-item-details">Vanilla</p>
+    </div>
+  </div>
+  <hr class="visible-xs">
+ </div>
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/ajax-utlis.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

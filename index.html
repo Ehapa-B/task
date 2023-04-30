@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Benita's Menu</title>
+
+    <!-- CSS scripts -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/e6e9423d9b.js" crossorigin="anonymous"></script>
+
+   <!-- Bootstrap Scripts -->
+    <link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </head>
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-md visible-lg">
+            <div id="logo-img" alt="Logo image"></div>
+          </a>
+
+          <div class="navbar-brand">
+            <a href="index.html"><h1>Benita's Menu</h1></a>
+            <p>
+              <img src="images/star-k-logo.png" alt="Nirvanacertification">
+              <span>Nirvana Certified</span>
+            </p>
+          </div>
+
+          <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li id="navHomeButton" class="visible-xs active">
+              <a href="index.html">
+                <span class="glyphicon glyphicon-home"></span> Home</a>
+            </li>
+            <li id="navMenuButton">
+              <a href="menu.html" onclick="$dc.loadMenuCategories();">
+                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
+            </li>
+            <li>
+              <a href="index.html">
+                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards</a>
+            </li>
+            <li id="phone" class="hidden-xs">
+              <a href="tel:+234-800-2844-897">
+                <span>+234-800-2844-897</span></a><div>* We Deliver at Your Home</div>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+
+  <div id="call-btn" class="visible-xs">
+    <a class="btn" href="tel:+234-800-2844-897">
+    <span class="glyphicon glyphicon-earphone"></span>
+    +234 800 2844 897
+    </a>
+  </div>
+  <div id="xs-deliver" class="text-center visible-xs">* We Deliver at Your Home</div>
+
+  <div id="main-content" class="container"> <img class="ajax" src="images/ajax-loader.gif" alt="ajax-loader"></div>
+
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="hours" class="col-sm-4">
+          <span>Hours:</span><br>
+          Mon-Thurs: 9:00am - 7:00pm<br>
+          Fri: 8:15am - 6:30pm<br>
+          Sunday Closed
+          <hr class="visible-xs">
+        </section>
+        <section id="address" class="col-sm-4">
+          <span>Address:</span><br>
+          Ojooo, Ibadan<br>
+          Nigeria.
+          <p>* Delivery area within 3-4 Km, with minimum order of $10 plus $.3 charge for all deliveries.</p>
+          <hr class="visible-xs">
+        </section>
+        <section id="testimonials" class="col-sm-4">
+          <p>"The best restaurant I've been to! And that's saying a lot, since I've been to many!"</p>
+          <p>"Amazing food! Great service! Couldn't ask for more! I'll be back again and again!"</p>
+        </section>
+      </div>
+      <div class="text-center">&copy; Copyright Benita's Menu</div>
+    </div>
+  </footer>
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/ajax-utlis.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
